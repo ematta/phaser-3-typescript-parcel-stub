@@ -2,9 +2,11 @@
   "name": "wrestling.casa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "build": "parcel build index.html",
+    "serve": "parcel serve index.html",
+    "watch": "parcel watch index.html"
   },
   "repository": {
     "type": "git",
