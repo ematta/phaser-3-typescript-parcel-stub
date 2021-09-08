@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "typeRoots": ["node_modules/@types", "node_modules/phaser/types"],
+    "types": ["phaser"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", ".parcel-cache"]
+}
