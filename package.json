@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "fmt": "prettier --write ./src",
     "build": "parcel build index.html",
     "serve": "parcel serve index.html",
     "watch": "parcel watch index.html"
